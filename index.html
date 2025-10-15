@@ -5,10 +5,12 @@
     <meta name="description" content="Vieclamonline24h - Đơn vị tuyển dụng chuyên nghiệp kết nối nhân tài với các công ty hàng đầu">
     <title>Vieclamonline24h - Giải Pháp Tuyển Dụng Chuyên Nghiệp</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ✅ Thêm thẻ xác minh Google tại đây -->
+    <meta name="google-site-verification" content="S5WU0IAmQOorQSpXOItYpZdGPmqo-T7blG4f8_nwFx0" />
 </head>
 <body>
 
@@ -31,21 +33,23 @@
                     
                     <!-- Mobile Menu -->
                     <div class="mobile-menu">
-                        <a href="#home" class="nav-link" role="menuitem" aria-label="Về trang chủ">Trang Chủ</a>
-                        <a href="#about" class="nav-link" role="menuitem" aria-label="Đến phần giới thiệu">Giới Thiệu</a>
-                        <a href="#company" class="nav-link" role="menuitem" aria-label="Xem thông tin công ty">Công Ty</a>
-                        <a href="#jobs" class="nav-link" role="menuitem" aria-label="Xem danh sách việc làm">Việc Làm</a>
-                        <a href="#feedback" class="nav-link" role="menuitem" aria-label="Đọc phản hồi từ ứng viên">Phản hồi</a>
-                        <a href="#contact" class="nav-link" role="menuitem" aria-label="Đến phần liên hệ">Liên Hệ</a>
-                    </div>
-                    <!-- Hamburger Menu Button -->
-                    <button class="mobile-menu-btn" aria-label="Mở menu di động">
-                        <div class="hamburger">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                <span>Menu</span>
+                                <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12">
+                                    <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                </svg>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="#home" class="nav-link" role="menuitem" aria-label="Về trang chủ">Trang Chủ</a>
+                                <a href="#about" class="nav-link" role="menuitem" aria-label="Đến phần giới thiệu">Giới Thiệu</a>
+                                <a href="#company" class="nav-link" role="menuitem" aria-label="Xem thông tin công ty">Công Ty</a>
+                                <a href="#jobs" class="nav-link" role="menuitem" aria-label="Xem danh sách việc làm">Việc Làm</a>
+                                <a href="#feedback" class="nav-link" role="menuitem" aria-label="Đọc phản hồi từ ứng viên">Phản hồi</a>
+                                <a href="#contact" class="nav-link" role="menuitem" aria-label="Đến phần liên hệ">Liên Hệ</a>
+                            </div>
                         </div>
-                    </button>
+                    </div>
                 </nav>
 
             </div>
@@ -1502,7 +1506,6 @@
         </a>
     </div>
 
-    <script src="header.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
